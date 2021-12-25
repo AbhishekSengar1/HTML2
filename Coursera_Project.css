@@ -1,0 +1,47 @@
+body{
+    background-image: url("backgroungimage.jpg");
+    backgrounf-size:100% 100%;
+}
+div h1{
+    text-align: center;
+    color: aqua;
+}
+
+@media(min-width:992px){
+    div p1,p2,p3{
+        float:right;
+        box-sizing: border-box;
+        width:30%;
+        border: 2px solid red;
+        margin: 15px;
+        padding:15px;
+        background-color: burlywood;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+   div p1,p2{
+       float:right;
+       background-color:cornflowerblue;
+       width:50%;
+       box-sizing: border-box;
+       padding:10px;
+       margin: 15px;
+
+   }
+   div p3{
+    margin:15px;
+    background-color:salmon;
+    width:100%;
+   }
+}
+@media(max-width:767px){
+    div p1,p2,p3{
+        float:right;
+        width:100%;
+        background-color:darkgrey;
+        padding:15px;
+        margin:10px;
+
+
+    }
+}
